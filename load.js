@@ -1,4 +1,5 @@
 const {Database} = require('sqlite3')
+// const db = new Database(':memory:') for multiple testing
 const db = new Database('./airports_db')
 const airports = require('./airports.json')
 
